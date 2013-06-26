@@ -1,0 +1,628 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"digita",
+				"digitalWrite"
+			],
+			[
+				"group",
+				"group3"
+			],
+			[
+				"ci",
+				"ciSetReferenceProperty"
+			],
+			[
+				"rele",
+				"releaseDate"
+			],
+			[
+				"Pack",
+				"PackagedApplicationVersion"
+			],
+			[
+				"dic",
+				"dict2"
+			],
+			[
+				"yak",
+				"yakServer2"
+			],
+			[
+				"TES",
+				"TaskExecutionState"
+			],
+			[
+				"ya",
+				"yakEnvToUpdate"
+			],
+			[
+				"pota",
+				"potatohead"
+			],
+			[
+				"fi",
+				"find_potato"
+			],
+			[
+				"kl",
+				"klingon_programmer_proverbs"
+			],
+			[
+				"ticket",
+				"ticket_announce_room"
+			],
+			[
+				"po",
+				"potatoheads"
+			],
+			[
+				"next",
+				"next_potato"
+			],
+			[
+				"zendesk",
+				"zendesk_put"
+			],
+			[
+				"potato",
+				"potatoheads"
+			],
+			[
+				"pot",
+				"potatoheads"
+			],
+			[
+				"nex",
+				"next_potato"
+			],
+			[
+				"the",
+				"the_potato"
+			],
+			[
+				"zende",
+				"zendesk_put"
+			],
+			[
+				"ne",
+				"next_potato"
+			],
+			[
+				"custom",
+				"custom_fields"
+			],
+			[
+				"zen",
+				"zendesk_request"
+			],
+			[
+				"ssh_sudoP",
+				"ssh_sudoPreserveAttributesOnCopyFromTempFile"
+			],
+			[
+				"deo",
+				"deployeds"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"previ",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"json",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"llist",
+				"Package Control: List Packages"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"prett",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"whi",
+				"Highlight Whitespaces: Toggle"
+			],
+			[
+				"mar",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: preview in Browser"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ajvanerp/Code/JavaDude/drent-domo/src/main/cpp/pin.cpp",
+		"/Users/ajvanerp/Code/JavaDude/drent-domo/src/main/cpp/pin.hpp",
+		"/Users/ajvanerp/Code/JavaDude/drent-domo/src/main/cpp/test.cpp",
+		"/Users/ajvanerp/Code/XebiaLabs/master/loadbalancer-plugin/netscaler-plugin/src/main/markdown/netscalerPluginManual.markdown",
+		"/Users/ajvanerp/Downloads/Adobe Photoshop Lightroom 5.0/Smart Adobe CS6 Blocker v1.0.app/Contents/Resources/Scripts/main.scpt",
+		"/Users/ajvanerp/Code/XebiaLabs/master/loadbalancer-plugin/bigip-plugin/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/gradle-plugins/src/main/groovy/com/xebialabs/gradle/plugins/commercial/CommercialPluginPlugin.groovy",
+		"/Users/ajvanerp/.ssh/known_hosts",
+		"/Volumes/rootfs 1/etc/network/interfaces",
+		"/Users/ajvanerp/.zshrc",
+		"/Volumes/rootfs/etc/network/interfaces",
+		"/Users/ajvanerp/Code/XebiaLabs/master/osb-plugin/build.gradle",
+		"/Volumes/boot/MLO",
+		"/Volumes/boot/uEnv.txt",
+		"/Users/ajvanerp/Code/XebiaLabs/master/platform/platform-test-tools/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/platform/settings.gradle",
+		"/Users/ajvanerp/Code/JavaDude/drent-domo/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/platform/repository-api/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/platform/.gitignore",
+		"/Users/ajvanerp/Code/XebiaLabs/master/platform/.git/COMMIT_EDITMSG",
+		"/Users/ajvanerp/Code/JavaDude/beaglebone.md",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/integration/core/log/deployit-server.log",
+		"/Users/ajvanerp/Code/XebiaLabs/deployit-common-build/dependencies.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/bundled-plugins/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/engine/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/plugin-api/build.gradle",
+		"/Users/ajvanerp/.gradle/gradle.properties",
+		"/Users/ajvanerp/Downloads/Offerte van Erp 30-05-2013.vpe",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/users-with-access.txt",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/customers.txt",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/u",
+		"/Users/ajvanerp/Code/XebiaLabs/master/plugin-api/.git/COMMIT_EDITMSG",
+		"/Users/ajvanerp/Code/XebiaLabs/master/engine/.git/COMMIT_EDITMSG",
+		"/Users/ajvanerp/.zshenv",
+		"/Users/ajvanerp/.gitconfig",
+		"/Users/ajvanerp/Code/XebiaLabs/deployit-common-build/d",
+		"/Users/ajvanerp/Code/XebiaLabs/master/engine/tasker/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/plugin-api/engine-spi/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/wls-plugin/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/loadbalancer-plugin/settings.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/loadbalancer-plugin/test2.cli",
+		"/Users/ajvanerp/Code/XebiaLabs/master/loadbalancer-plugin/test.nscli",
+		"/Users/ajvanerp/Code/XebiaLabs/master/engine/remote-booter/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/loadbalancer-plugin/build.gradle",
+		"/Users/ajvanerp/Code/JavaDude/dotmac/README",
+		"/Users/ajvanerp/Code/XebiaLabs/master/releaseit/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/loadbalancer-plugin/.gitignore",
+		"/Users/ajvanerp/Code/XebiaLabs/master/engine/local-booter/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/engine/replacer/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/engine/packager/build.gradle",
+		"/Users/ajvanerp/Downloads/deployit-security.xml",
+		"/Users/ajvanerp/Code/XebiaLabs/master/engine/planner/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/platform/repository/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/ec2-plugin/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/platform/booter/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/platform/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/package/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/ec2-plugin/gradle/wrapper/gradle-wrapper.properties",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/engine/gradle/wrapper/gradle-wrapper.properties",
+		"/Users/ajvanerp/Code/XebiaLabs/master/bundled-plugins/.gitignore",
+		"/Users/ajvanerp/Code/XebiaLabs/master/glassfish-plugin/.gitignore",
+		"/Users/ajvanerp/Code/XebiaLabs/master/jbossas-plugin/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/jbossdm-plugin/gradle/wrapper/gradle-wrapper.properties",
+		"/Users/ajvanerp/Code/XebiaLabs/master/jbossas-plugin/overcast.properties",
+		"/Users/ajvanerp/.overcast/overcast.properties",
+		"/Users/ajvanerp/Code/XebiaLabs/master/bundled-plugins/cloud-plugin/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/3.8.x-maintenance/bamboo-deployit-plugin/pom.xml",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit-java-client/build.gradle",
+		"/Users/ajvanerp/.m2/settings.xml",
+		"/Users/ajvanerp/Downloads/settings.xml",
+		"/Users/ajvanerp/Movies/Bones/S05/Bones.S05E22.720p.HDTV.X264-DIMENSION.srt",
+		"/Users/ajvanerp/Movies/Bones/S05/Bones.S05E01.PROPER.720p.HDTV.x264-SYS.srt",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/documentation/src/main/markdown/packagingmanual.markdown",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/documentation/build/doc/upgrademanual.markdown",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/documentation/src/main/markdown/upgrademanual.markdown",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/server-core/src/test/resources/texts/test.txt",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/server-core/src/test/resources/texts/test.tx",
+		"/Users/ajvanerp/Code/XebiaLabs/master/gradle-plugins/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/server-core/src/test/resources/test.txt",
+		"/Users/ajvanerp/Desktop/labratauth.json",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/integration/core/src/test/jython/repo/cannot-move-to-other-root.py",
+		"/Users/ajvanerp/defaults",
+		"/Users/ajvanerp/Code/XebiaLabs/master/plugin-api/gradle/wrapper/gradle-wrapper.properties",
+		"/Users/ajvanerp/Code/XebiaLabs/master/bundled-plugins/gradle/wrapper/gradle-wrapper.properties",
+		"/Users/ajvanerp/Code/XebiaLabs/master/vagrant/shared/puppet/middleware/jbossas/manifests/init.pp",
+		"/Users/ajvanerp/Code/XebiaLabs/master/vagrant/shared/puppet/middleware/jbossas/manifests/jboss-61.pp",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/integration/core/src/test/jython/security-model/taskTakeover.py",
+		"/Users/ajvanerp/Code/XebiaLabs/master/was-plugin/src/main/java/com/xebialabs/deployit/plugin/was/container/DynamicCluster.java",
+		"/Users/ajvanerp/Code/JavaDude/google-code-jam/settings.gradle",
+		"/Users/ajvanerp/Code/JavaDude/google-code-jam/skeleton/build.gradle",
+		"/Users/ajvanerp/Code/JavaDude/google-code-jam/.gitignore",
+		"/Users/ajvanerp/Code/JavaDude/google-code-jam/build.gradle",
+		"/Users/ajvanerp/Code/JavaDude/google-code-jam/build.",
+		"/Users/ajvanerp/Code/JavaDude/google-code-jam/build.sbt",
+		"/Users/ajvanerp/Code/JavaDude/coursera/algs4/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/integration/core/src/test/jython/deployment/step-view.py",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/integration/core/src/test/jython/deployment/step-preview-mask-exceptions.py",
+		"/Users/ajvanerp/Code/XebiaLabs/master/jbossas-plugin/gradle/wrapper/gradle-wrapper.properties",
+		"/Users/ajvanerp/Code/XebiaLabs/master/gradle-plugins/.gitignore",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/documentation/src/main/markdown/packagingmanual/packagingmanual.markdown",
+		"/Users/ajvanerp/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/integration/core/src/test/jython/export/importAndExport.py",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/integration/core/src/test/resources/testfiles/x/deployit-manifest.xml",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/integration/core/src/test/jython/deployment/deploy-with-restricted-dictionaries.py",
+		"/Volumes/Kindle/extensions/kindlepdfviewer/kpdf.sh",
+		"/Volumes/Kindle/extensions/kindlepdfviewer/menu.json",
+		"/Volumes/Kindle/extensions/kindlepdfviewer/config.xml",
+		"/Volumes/Kindle/extensions/KUAL/menu.json",
+		"/Volumes/Kindle/extensions/KUAL/config.xml",
+		"/Users/ajvanerp/Downloads/kindlepdfviewer-v2013.1/launchpad/kpdf.ini",
+		"/Volumes/Kindle/kindle_collections_path_cache.calibre",
+		"/Volumes/Kindle/driveinfo.calibre",
+		"/Users/ajvanerp/Code/XebiaLabs/3.8.x-maintenance/bundled-plugins/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/3.8.x-maintenance/engine/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/3.8.x-maintenance/plugin-api/build.gradle",
+		"/Users/ajvanerp/.ssh/config",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/documentation/src/main/markdown/customizationmanual/customizationmanual.markdown",
+		"/Users/ajvanerp/Code/JavaDude/assumeng/build.gradle",
+		"/Users/ajvanerp/Code/JavaDude/assumeng/README.md",
+		"/Users/ajvanerp/Code/JavaDude/assumeng/.gitignore",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/yak-plugin/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/engine/engine-xml/build.gradle",
+		"/Users/ajvanerp/Code/JavaDude/license-gradle-plugin/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/engine/test-tools/build.gradle",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/integration/core/src/test/jython/repo/garbagecollect.py",
+		"/Users/ajvanerp/Library/Application Support/Sublime Text 2/Packages/User/Python.sublime-settings",
+		"/Users/ajvanerp/Code/XebiaLabs/master/deployit/settings.gradle"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Portlet1",
+			"Portlet",
+			"localCommonBuildRepo",
+			"\n  ",
+			"zip",
+			"\\t",
+			"repository.delete(dict.id)\n",
+			"garba",
+			"sleep",
+			"jdom",
+			"jdo",
+			"\\t",
+			"å",
+			"\\t",
+			"assertEquals(\"\", depl2.deployeds[0].name)\n",
+			"deployeds",
+			"\\t",
+			"artifac",
+			"view-st",
+			"script",
+			"random",
+			"Fs",
+			"curs",
+			"^",
+			"$",
+			"^",
+			"(.*)",
+			"resour",
+			"\\t",
+			"crea",
+			"delegate",
+			"1",
+			"^[ ]+(.*)$",
+			"^[ ]+",
+			"[ ]+\\* ",
+			"[ ]*\\*  ",
+			"* ",
+			"\\* ",
+			"asCon",
+			"modify",
+			"RepPolicy",
+			"repP"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"    ",
+			"  ",
+			"\",",
+			"\"",
+			"\"\\1\",",
+			"\"$1\",",
+			"  ",
+			"type",
+			"<li><span style=\"background-color: white;\">$1</span></li>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"upgrademanu",
+				"documentation/src/main/markdown/upgrademanual.markdown"
+			],
+			[
+				"packagingmanu",
+				"documentation/src/main/markdown/packagingmanual.markdown"
+			],
+			[
+				"upgrade",
+				"documentation/build/doc/upgrademanual.markdown"
+			],
+			[
+				"init",
+				"shared/puppet/middleware/jbossas/manifests/init.pp"
+			],
+			[
+				"task",
+				"src/test/jython/security-model/taskTakeover.py"
+			],
+			[
+				"dynami",
+				"src/main/java/com/xebialabs/deployit/plugin/was/container/DynamicCluster.java"
+			],
+			[
+				"packaging",
+				"documentation/src/main/markdown/packagingmanual/packagingmanual.markdown"
+			],
+			[
+				"import",
+				"src/test/jython/export/importAndExport.py"
+			],
+			[
+				"restric",
+				"src/test/jython/deployment/deploy-with-restricted-dictionaries.py"
+			],
+			[
+				"garba",
+				"src/test/jython/repo/garbagecollect.py"
+			],
+			[
+				"dite",
+				"src/main/java/com/xebialabs/deployit/integration/test/DeployitIntegrationTest.java"
+			],
+			[
+				"replace",
+				"src/test/jython/deployment/deploy-with-placeholder-names.py"
+			],
+			[
+				"release-",
+				"package/src/main/resources/package/server/doc/release-notes.txt"
+			],
+			[
+				"testu",
+				"integration/core/ext/testutils.py"
+			],
+			[
+				"system",
+				"documentation/src/main/markdown/systemadminmanual/systemadminmanual.markdown"
+			],
+			[
+				"referencemanu",
+				"documentation/src/main/markdown/referencemanual/referencemanual.markdown"
+			],
+			[
+				"customizationmanu",
+				"documentation/src/main/markdown/customizationmanual/customizationmanual.markdown"
+			],
+			[
+				"customiza",
+				"documentation/build/doc/customizationmanual/customizationmanual.markdown"
+			],
+			[
+				"custom",
+				"documentation/build/doc/customizationmanual/customizationmanual.markdown"
+			],
+			[
+				"referen",
+				"documentation/build/doc/referencemanual/referencemanual.markdown"
+			],
+			[
+				"reference",
+				"documentation/build/doc/referencemanual/referencemanual.markdown"
+			],
+			[
+				"random",
+				"node_modules/hubot-scripts/src/scripts/reddit-random-top.coffee"
+			],
+			[
+				"robot",
+				"node_modules/hubot/src/robot.coffee"
+			],
+			[
+				"tst-da",
+				"src/test/jython/repo/test-date-ci.py"
+			],
+			[
+				"build",
+				"server-api-impl/build.gradle"
+			],
+			[
+				"build.",
+				"server-core/build.gradle"
+			],
+			[
+				"30",
+				"src/scripts/init.d/30_commonBuild.gradle"
+			],
+			[
+				"gist",
+				"scripts/gist-brain.coffee"
+			],
+			[
+				"role",
+				"node_modules/hubot/src/scripts/roles.coffee"
+			],
+			[
+				"roles",
+				"scripts/roles.coffee"
+			],
+			[
+				"gta",
+				"node_modules/hubot-gtalk/src/gtalk.coffee"
+			],
+			[
+				"gtalk.",
+				"node_modules/hubot-gtalk/src/gtalk.coffee"
+			],
+			[
+				"oracle",
+				"generic-plugin/src/test/resources/sql/OracleClient.sh.ftl"
+			],
+			[
+				"linux",
+				"database-plugin/src/main/resources/sql/linuxExportEnvVars.ftl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 423.0,
+	"status_bar_visible": true
+}
