@@ -57,7 +57,6 @@ void KakuTransmitter::transmitUnitDimLevel(unsigned short unit, unsigned short d
 		delayMicroseconds(T);
 		pin->digitalWrite(LOW);
 		delayMicroseconds(T);
-
 		transmitUnitAddress(unit);
 
 		for (short j=3; j>=0; j--) {

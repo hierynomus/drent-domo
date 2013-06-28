@@ -4,5 +4,9 @@
 		{
 			"path": "/Users/ajvanerp/Code/JavaDude/drent-domo"
 		}
-	]
+	],
+  "sublimeclang_options":
+  [
+    "-I${folder:${project_path:my_widget.sublime-project}}/**"
+  ]
 }
