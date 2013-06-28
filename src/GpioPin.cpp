@@ -32,7 +32,6 @@ void GpioPin::setInputMode() {
 }
 
 void GpioPin::digitalWrite(unsigned short value) {
-	cout << "Writing [" << value << "] to pin." << endl;
 	writeFile(gpioValue, value);
 }
 
