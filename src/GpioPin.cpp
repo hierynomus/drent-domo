@@ -11,8 +11,8 @@ GpioPin::GpioPin(unsigned short bank, unsigned short pinNr) {
 	this->bank = bank;
 	this->pinNr = pinNr;
 	this->gpio = 32 * bank + pinNr;
-	sprintf(this->gpioValue, "/sys/class/gpio/gpio%d/value", gpio);
-	sprintf(this->gpioDirection, "/sys/class/gpio/gpio%d/direction", gpio);
+	sprintf(gpioValue, "/sys/class/gpio/gpio%d/value", gpio);
+	sprintf(gpioDirection, "/sys/class/gpio/gpio%d/direction", gpio);
 
 	exportPin();
 }

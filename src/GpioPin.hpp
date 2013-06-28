@@ -16,8 +16,8 @@ class GpioPin {
 	unsigned short bank;
 	unsigned short pinNr;
 	unsigned short gpio;
-	char *gpioValue;
-	char *gpioDirection;
+	char gpioValue [64];
+	char gpioDirection [64];
 public:
 	GpioPin(unsigned short bank, unsigned short pinNr);
 	~GpioPin();
