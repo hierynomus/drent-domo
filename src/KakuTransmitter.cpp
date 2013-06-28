@@ -11,6 +11,7 @@ KakuTransmitter::KakuTransmitter(unsigned long address, GpioPin *pin, unsigned i
 	this->address = address;
 	this->pin = pin;
 	this->repeats = (1 << repeats) - 1;
+	cout << "Going to repeat " << this->repeats << "nr of times" << endl;
 	this->waiter.tv_sec = 0;
 }
 
