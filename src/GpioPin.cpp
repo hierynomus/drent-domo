@@ -1,5 +1,5 @@
 #include <iostream>
-#include <fstream>
+#include <stdio.h>
 
 #include "GpioPin.hpp"
 
@@ -23,7 +23,7 @@ GpioPin::~GpioPin() {
 
 void GpioPin::setOutputMode(string highOrLow) {
 	cout << "Setting pin gpio" << gpio << " to output " << highOrLow << endl;
-	writeFile(gpioDirection, highOrLow);
+	writeFile(gpioDirection, highOrLow.c_str());
 }
 
 
@@ -49,16 +49,16 @@ void GpioPin::unexportPin() {
 	writeFile("/sys/class/gpio/unexport", gpio);
 }
 
-void GpioPin::writeFile(char const *filePath, string value) {
-	ofstream path;
-	path.open(filePath);
-	path << value;
-	path.close();
+void GpioPin::writeFile(char const *filePath, const char * value) {
+	FILE *f = NULL;
+	f = fopen(filePath, "ab");
+	fwrite(&value, sizeof(char), sizeof(value), f);
+	fclose(f);
 }
 
 void GpioPin::writeFile(char const *filePath, unsigned short value) {
-	ofstream path;
-	path.open(filePath);
-	path << value;
-	path.close();
+	FILE *f = NULL;
+	f = fopen(filePath, "ab");
+	fwrite(&value, sizeof(char), 1, f);
+	fclose(f);
 }

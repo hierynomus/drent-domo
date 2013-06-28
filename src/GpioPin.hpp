@@ -29,7 +29,7 @@ public:
 private:
 	void exportPin();
 	void unexportPin();
-	void writeFile(char const *filePath, string value);
+	void writeFile(char const *filePath, const char *value);
 	void writeFile(char const *filePath, unsigned short value);
 };
 #endif
