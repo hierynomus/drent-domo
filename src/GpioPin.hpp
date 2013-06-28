@@ -13,12 +13,20 @@
 using namespace std;
 
 class GpioPin {
-	ofstream pin;
+	unsigned short bank;
+	unsigned short pinNr;
+	unsigned short gpio;
 
 public:
-	GpioPin(string path, int mode);
+	GpioPin(unsigned short bank, unsigned short pinNr);
 	~GpioPin();
+	void setOutputMode(string highOrLow);
+	void setInputMode();
 	void digitalWrite(int value);
 	int digitalRead();
+
+private:
+	void export();
+	void unexport();
 };
 #endif

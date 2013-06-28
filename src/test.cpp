@@ -5,11 +5,9 @@
 using namespace std;
 
 int main() {
+	cout << "Creating gpio pin gpio1[28]" << endl;
+	GpioPin pin (1, 28);
 	string in;
-	GpioPin p ("test.txt", GPIO_OUTPUT);
-	p.digitalWrite(HIGH);
-	cout << "Press a key: ";
 	cin >> in;
-	p.digitalWrite(HIGH);
 	return 0;
 }

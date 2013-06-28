@@ -5,14 +5,28 @@
 
 using namespace std;
 
-GpioPin::GpioPin(string path, int mode) {
-	cout << "Going to open " << path << endl;
-	pin.open(path.c_str());
+
+
+GpioPing::GpioPin(unsigned short bank, unsigned short pinNr) {
+	this->bank = bank;
+	this->pinNr = pinNr;
+	this->gpio = 32 * bank + pinNr;
+
+	export();
 }
 
 GpioPin::~GpioPin() {
 	cout << "Going to close..." << endl;
-	pin.close();
+	unexport();
+}
+
+void GpioPin::setOutputMode(string highOrLow) {
+	cout << "Setting pin gpio" << bank << "[" << nr << "] to output " << highOrLow << endl;
+
+}
+
+void GpioPin::setInputMode() {
+
 }
 
 void GpioPin::digitalWrite(int value) {
@@ -23,4 +37,18 @@ void GpioPin::digitalWrite(int value) {
 
 int GpioPin::digitalRead() {
 	return 1;
+}
+
+void export() {
+	ofstream exportPath;
+	exportPath.open("/sys/class/gpio/export");
+	exportPath << gpio;
+	exportPath.close();
+}
+
+void unexport() {
+	ofstream unexportPath;
+	unexportPath.open("/sys/class/gpio/unexport");
+	unexportPath << gpio;
+	unexportPath.close();
 }
