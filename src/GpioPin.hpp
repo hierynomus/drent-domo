@@ -16,17 +16,20 @@ class GpioPin {
 	unsigned short bank;
 	unsigned short pinNr;
 	unsigned short gpio;
-
+	char *gpioValue;
+	char *gpioDirection;
 public:
 	GpioPin(unsigned short bank, unsigned short pinNr);
 	~GpioPin();
 	void setOutputMode(string highOrLow);
 	void setInputMode();
-	void digitalWrite(int value);
+	void digitalWrite(unsigned short value);
 	int digitalRead();
 
 private:
-	void export();
-	void unexport();
+	void exportPin();
+	void unexportPin();
+	void writeFile(char const *filePath, string value);
+	void writeFile(char const *filePath, unsigned short value);
 };
 #endif

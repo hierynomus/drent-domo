@@ -1,7 +1,7 @@
 include_directories(${DRENTDOMO_SOURCE_DIR}/src)
 link_directories(${DRENTDOMO_BINARY_DIR}/src)
 
-set(PROGRAMS test)
+set(PROGRAMS kaku-send)
 
 add_library(gpio GpioPin.cpp)
 add_library(kaku-tx KakuTransmitter.cpp)
