@@ -4,32 +4,50 @@
 #define HIGH 1
 #define LOW 0
 
-#define GPIO_INPUT 1
-#define GPIO_OUTPUT 0
+#define GPIO_INPUT "in"
+#define GPIO_OUTPUT_LOW "low"
+#define GPIO_OUTPUT_HIGH "high"
+
+#define	GPIO_EXPORT_FILE "/sys/class/gpio/export"
+#define	GPIO_UNEXPORT_FILE "/sys/class/gpio/unexport"
+#define GPIO_FILE_PREFIX "/sys/class/gpio/gpio"
+#define	GPIO_VALUE_POSTFIX "/value"
+#define	GPIO_DIRECTION_POSTFIX "/direction"
+
 
 #include <iostream>
 #include <fstream>
 
 using namespace std;
 
+enum GPIO_ERRORS
+{
+	GPIO_GENERR 	= -1,
+	GPIO_FILEERR 	= -2,
+	GPIO_RDYERR		= -3
+};
+
 class GpioPin {
-	unsigned short bank;
-	unsigned short pinNr;
-	unsigned short gpio;
-	char gpioValue [64];
-	char gpioDirection [64];
+	unsigned short m_gpio;
+	string m_sGpio;
+	int m_pinFd;
+	int m_directionFd;
+
 public:
+	GpioPin(unsigned short gpio);
 	GpioPin(unsigned short bank, unsigned short pinNr);
 	~GpioPin();
-	void setOutputMode(string highOrLow);
-	void setInputMode();
 	void digitalWrite(unsigned short value);
 	int digitalRead();
 
 private:
-	void exportPin();
-	void unexportPin();
-	void writeFile(char const *filePath, const char *value);
-	void writeFile(char const *filePath, unsigned short value);
+	int activate();
+	int exportPin();
+	void setMode(string mode);
+	int openPin();
+	int openDirection();
+	void closePin();
+	int unexportPin();
+	int writeFile(string filePath, string value);
 };
 #endif
