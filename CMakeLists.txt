@@ -3,3 +3,4 @@ project(DRENTDOMO)
 
 set(CMAKE_CXX_FLAGS "-g -Wall -lrt")
 add_subdirectory(src)
+add_subdirectory(gpio)

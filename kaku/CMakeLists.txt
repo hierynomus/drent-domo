@@ -1,9 +1,10 @@
 include_directories(${DRENTDOMO_SOURCE_DIR}/src)
+include_directories(${DRENTDOMO_SOURCE_DIR}/gpio)
 link_directories(${DRENTDOMO_BINARY_DIR}/src)
+link_directories(${DRENTDOMO_BINARY_DIR}/gpio)
 
 set(PROGRAMS kaku-send)
 
-add_library(gpio GpioPin.cpp)
 add_library(kaku-tx KakuTransmitter.cpp)
 
 foreach(program ${PROGRAMS})
