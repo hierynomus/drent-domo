@@ -39,11 +39,11 @@ public:
 	~GpioPin();
 	void digitalWrite(unsigned short value);
 	int digitalRead();
+	void setMode(string mode);
 
 private:
 	int activate();
 	int exportPin();
-	void setMode(string mode);
 	int openPin();
 	int openDirection();
 	void closePin();

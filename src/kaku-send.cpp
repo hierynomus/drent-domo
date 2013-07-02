@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
 	GpioPin pin (1, 28);
 
 	KakuTransmitter tx (42, &pin, 3);
-	pin.setOutputMode("low");
+	pin.setMode("low");
 	cout << "Turning lamp on..." << endl;
 
 	timespec start, end;
